@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ruluko", sans-serif;
+}
+
+main {
+  background-color: #f1f3f6;
+  height: 100vh;
+}
+main h5 {
+  text-align: center;
+  margin-top: 1.5% !important;
+  font-size: 13px;
+}
+
+.login {
+  width: 535px;
+  height: 600px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 50px -35px rgba(0, 0, 0, 0.4);
+}
+.login h1 {
+  text-align: center;
+  padding: 20px !important;
+  border-bottom: 1px solid rgba(76, 77, 77, 0.2549019608);
+  font-weight: 900;
+}
+.login h3 {
+  text-align: center;
+  font-size: 23px;
+  padding-top: 15px !important;
+}
+.login input {
+  border: none;
+  outline: none;
+  border: 1px solid #dce0e5;
+  border-radius: 5px;
+}
+.login div div {
+  font-size: 12px;
+}
+
+.forget input {
+  width: 19px;
+  height: 19px;
+}
+.forget span {
+  cursor: pointer;
+}
+
+.acc input {
+  padding: 3% !important;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  border: none;
+  border: 1px solid #0d6efd;
+  border-radius: 5px;
+  color: #fff;
+  transition: 0.5s;
+}
+.acc input:hover {
+  background-color: #095ddc;
+  cursor: pointer;
+}
+.acc h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #696969;
+}
+.acc h2 a {
+  text-decoration: none;
+}
+
+.Language {
+  font-size: 14px;
+}
+.Language select {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,110 @@
+
+    #form {
+        z-index: 12;
+        // background-color: #db008f;
+        border-radius: 15px;
+        transition: 3s;
+
+        >form {
+            >h1 {
+                font-weight: bold;
+                color: #ffffffff;
+            }
+
+            >input {
+                border: none;
+                outline: none;
+                border-radius: 12px;
+                border: 1px solid #cbcccc;
+                background: none;
+                height: 50px;
+                color: #ffffffff;
+            }
+
+            >button {
+                &:nth-of-type(1) {
+                    height: 50px;
+                    border-radius: 12px;
+                    border: none;
+                    background: none;
+                    color: #ffffffff;
+                    border: 1px solid #cbcccc;
+                    transition: .4s;
+
+
+                }
+
+            }
+
+            #msgform {
+                color: #d60b0b;
+                font-size: 20px;
+            }
+
+        }
+
+        >section {
+            >button {
+                border-radius: 10px;
+                background: none;
+                color: #ffffffff;
+                height: 50px;
+                border: none;
+                outline: none;
+
+                transition: .4s;
+
+                &:hover {
+
+                    color: #128006;
+                }
+            }
+        }
+    }
+
+    .token {
+        background-color: #0beb91;
+        //  opacity: 0;
+        border-radius: 10px;
+        top: 50%;
+        left: -90%;
+        transition: .4s;
+
+
+
+        >section {
+            >span {
+                color: #ffffffff;
+                border-bottom: 1px solid #cbcccc;
+            }
+
+            >p {
+
+                color: #ffffffff;
+
+                >span {
+                    font-size: 20px;
+                    color: #ffffffff;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+                    &:nth-of-type(1) {
+                        color: #d60b0b;
+                    }
+
+                    &:nth-of-type(2) {
+                        color: green;
+
+                    }
+
+                    &:nth-of-type(3) {
+                        color: #d60b0b;
+                    }
+
+                    &:nth-of-type(4) {
+                        color: green;
+
+                    }
+                }
+            }
+        }
+    }
